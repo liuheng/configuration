@@ -1,0 +1,19 @@
+# Template used to create this container: /usr/share/lxc/templates/lxc-ubuntu
+# Parameters passed to the template:
+# For additional config options, please look at lxc.container.conf(5)
+
+# Common configuration
+lxc.include = /usr/share/lxc/config/ubuntu.common.conf
+
+# Container specific configuration
+lxc.rootfs = /var/lib/lxc/prototype/rootfs
+lxc.mount = /var/lib/lxc/prototype/fstab
+lxc.utsname = prototype
+lxc.arch = amd64
+
+# Network configuration
+lxc.network.type = veth
+lxc.network.flags = up
+lxc.network.link = lxcbr0
+lxc.network.hwaddr = 00:16:3e:8b:b3:53
+lxc.network.ipv4 = 10.0.3.2/24
