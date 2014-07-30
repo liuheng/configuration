@@ -113,7 +113,18 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# virtualenvwrapper
+export WORKON_HOME=/data/virtualenv
+export PROJECT_HOME=/data/virtualenv
+source /usr/local/bin/virtualenvwrapper.sh
+
+# default editor
+export EDITOR=vim
+
+# home directories
 export JAVA_HOME=/data/jdk
 export FLUME_HOME=/data/flume
 export HADOOP_HOME=/data/hadoop
+
+# path
 export PATH=$JAVA_HOME/bin:$FLUME_HOME/bin:$HADOOP_HOME/bin:$HADOOP_HOME/sbin:$PATH
