@@ -37,16 +37,17 @@ ff02::2 ip6-allrouters
 
 # graphite/dash server
 10.0.3.61 dash
-10.0.3.61 dash.in.merocloud.com
 
 # project management, phabricator and gitlab
 10.0.3.71 pm
-10.0.3.71 ph.in.merocloud.com
-10.0.3.71 git.in.merocloud.com
 
 # log server
 10.0.3.81 log1
 10.0.3.82 log2
+
+# web application server
+10.0.3.91 web1
+10.0.3.92 web2
 
 # hadoop cluster
 10.0.3.181 hadoop-master
