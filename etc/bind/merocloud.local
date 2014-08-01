@@ -3,7 +3,7 @@
 ;
 $TTL	604800
 @	IN	SOA	merocloud.com thomas.merocloud. (
-		 2014080105		; Serial
+		 2014080108		; Serial
 			 604800		; Refresh
 			  86400		; Retry
 			2419200		; Expire
@@ -25,27 +25,40 @@ prototype   IN  A   10.0.3.2
 ; nginx
 www         IN  A   10.0.3.11
             IN  A   10.0.3.12
+nginx       IN  A   10.0.3.11
+            IN  A   10.0.3.12
 nginx1      IN  A   10.0.3.11
 nginx2      IN  A   10.0.3.12
 
 ; application server
+app         IN  A   10.0.3.21
+            IN  A   10.0.3.22
 app1        IN  A   10.0.3.21
 app2        IN  A   10.0.3.22
 
 ; service server
+service     IN  A   10.0.3.31
+            IN  A   10.0.3.32
 service1    IN  A   10.0.3.31
 service2    IN  A   10.0.3.32
 
 ; sql server
+sql         IN  A   10.0.3.41
+            IN  A   10.0.3.42
 sql1        IN  A   10.0.3.41
 sql2        IN  A   10.0.3.42
 
 ; cache server
+cache       IN  A   10.0.3.51
+            IN  A   10.0.3.52
 cache1      IN  A   10.0.3.51
 cache2      IN  A   10.0.3.52
 
 ; graphite/dash server
 dash        IN  A   10.0.3.61
+graphite    IN  A   10.0.3.61
+descartes   IN  A   10.0.3.61
+grafana     IN  A   10.0.3.61
 
 ; project management, phabricator and gitlab
 mail        IN  A   10.0.3.71
@@ -54,10 +67,14 @@ git         IN  A   10.0.3.71
 ph          IN  A   10.0.3.71
 
 ; log server
+log         IN  A   10.0.3.81
+            IN  A   10.0.3.82
 log1        IN  A   10.0.3.81
 log2        IN  A   10.0.3.82
 
 ; web application server
+web         IN  A   10.0.3.91
+            IN  A   10.0.3.92
 web1        IN  A   10.0.3.91
 web2        IN  A   10.0.3.92
 
