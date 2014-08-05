@@ -14,6 +14,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+JAVA_HOME="/data/jdk"
+FLUME_HOME="/data/flume"
+HADOOP_HOME="/data/hadoop"
+CASSANDRA_HOME="/data/cassandra"
+
 calculate_heap_sizes()
 {
     case "`uname`" in
