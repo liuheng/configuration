@@ -3,7 +3,7 @@
 ;
 $TTL	604800
 @	IN	SOA	merocloud.com thomas.merocloud. (
-		 2014080109		; Serial
+		 2014080110		; Serial
 			 604800		; Refresh
 			  86400		; Retry
 			2419200		; Expire
