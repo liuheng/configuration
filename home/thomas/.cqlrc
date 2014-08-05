@@ -18,8 +18,8 @@
 ; Sample ~/.cqlshrc file.
 
 [authentication]
-username = fred
-password = !!bang!!$
+username = cassandra
+password = cassandra
 
 [ui]
 color = on
@@ -29,7 +29,7 @@ completekey = tab
 version = 3.0
 
 [connection]
-hostname = 127.0.0.1
+hostname = localhost
 port = 9160
 ; enable below for ssl
 ;factory = cqlshlib.ssl.ssl_transport_factory
