@@ -31,7 +31,7 @@
     </property>
     <property>
         <name>hbase.zookeeper.quorum</name>
-        <value>hadoop-master,hadoop-node1,hadoop-node2</value>
+        <value>hadoop-master.merocloud.com,hadoop-node1.merocloud.com,hadoop-node2.merocloud.com</value>
     </property>
     <property>
         <name>hbase.tmp.dir</name>

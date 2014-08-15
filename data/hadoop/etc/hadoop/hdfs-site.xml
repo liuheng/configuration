@@ -69,27 +69,27 @@
 
     <property>
         <name>dfs.namenode.rpc-address.mycluster.nn1</name>
-        <value>hadoop-master:8020</value>
+        <value>hadoop-master.merocloud.com:8020</value>
     </property>
 
     <property>
         <name>dfs.namenode.rpc-address.mycluster.nn2</name>
-        <value>hadoop-node1:8020</value>
+        <value>hadoop-node1.merocloud.com:8020</value>
     </property>
 
     <property>
         <name>dfs.namenode.http-address.mycluster.nn1</name>
-        <value>hadoop-master:50070</value>
+        <value>hadoop-master.merocloud.com:50070</value>
     </property>
 
     <property>
         <name>dfs.namenode.http-address.mycluster.nn2</name>
-        <value>hadoop-node1:50070</value>
+        <value>hadoop-node1.merocloud.com:50070</value>
     </property>
 
     <property>
         <name>dfs.namenode.shared.edits.dir</name>
-        <value>qjournal://hadoop-master:8485;hadoop-node1:8485;hadoop-node2:8485/mycluster</value>
+        <value>qjournal://hadoop-master.merocloud.com:8485;hadoop-node1.merocloud.com:8485;hadoop-node2.merocloud.com:8485/mycluster</value>
     </property>
 
     <property>
