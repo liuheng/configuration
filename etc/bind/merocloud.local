@@ -3,7 +3,7 @@
 ;
 $TTL	604800
 @	IN	SOA	merocloud.com thomas.merocloud. (
-		 2014080110		; Serial
+		 2014081801		; Serial
 			 604800		; Refresh
 			  86400		; Retry
 			2419200		; Expire
@@ -78,13 +78,21 @@ web         IN  A   10.0.3.91
 web1        IN  A   10.0.3.91
 web2        IN  A   10.0.3.92
 
-; web application server
+; cassandra cluster
 cassandra   IN  A   10.0.3.101
             IN  A   10.0.3.102
             IN  A   10.0.3.103
 cassandra1  IN  A   10.0.3.101
 cassandra2  IN  A   10.0.3.102
 cassandra3  IN  A   10.0.3.103
+
+; mongodb cluster
+mongodb     IN  A   10.0.3.111
+            IN  A   10.0.3.112
+            IN  A   10.0.3.113
+mongodb1    IN  A   10.0.3.111
+mongodb2    IN  A   10.0.3.112
+mongodb3    IN  A   10.0.3.113
 
 ; hadoop cluster
 hadoop-master   IN  A   10.0.3.181

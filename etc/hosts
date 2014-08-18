@@ -49,6 +49,16 @@ ff02::2 ip6-allrouters
 10.0.3.91 web1
 10.0.3.92 web2
 
+# cassandra cluster
+10.0.3.101 cassandra1
+10.0.3.102 cassandra2
+10.0.3.103 cassandra3
+
+# mongodb cluster
+10.0.3.111 mongodb1
+10.0.3.112 mongodb2
+10.0.3.113 mongodb3
+
 # hadoop cluster
 10.0.3.181 hadoop-master
 10.0.3.182 hadoop-master1
