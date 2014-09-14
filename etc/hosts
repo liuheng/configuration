@@ -59,6 +59,11 @@ ff02::2 ip6-allrouters
 10.0.3.112 mongodb2
 10.0.3.113 mongodb3
 
+# mongodb cluster
+10.0.3.121 es1
+10.0.3.122 es2
+10.0.3.123 es3
+
 # hadoop cluster
 10.0.3.181 hadoop-master
 10.0.3.182 hadoop-master1
